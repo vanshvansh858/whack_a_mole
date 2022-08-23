@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(
+    to bottom right,
+    rgb(88, 0, 255),
+    rgb(0, 150, 255),
+    rgb(0, 215, 255),
+    rgb(114, 255, 255)
+  );
+  background-repeat: no-repeat;
+  padding-bottom: 16%;
+}
+
+.game {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 100px;
+  font-family: cursive;
+}
+
+.scr {
+  text-align: center;
+  font-size: 100px;
+  font-family: cursive;
+}
+
+.start {
+  justify-content: center;
+  transition: 0.5s;
+  display: flex;
+  font-size: 60px;
+  font-family: cursive;
+  margin: auto;
+  border: #000000 3px solid;
+}
+
+.start a {
+  text-decoration: none;
+  color: rgb(86, 195, 197);
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.start a:hover {
+  color: #fff;
+}
+
+.start:hover {
+  background-color: rgb(0, 215, 255);
+}
+
+.hole {
+  height: 200px;
+  width: 200px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.grid {
+  width: 999px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 16%;
+}
+
+.mole {
+  background-image: url(https://pm1.narvii.com/7093/082fe993d035c1b647ed6d2b7fa3f58acb24a136r1-768-720v2_hq.jpg);
+  background-size: cover;
+}
+
+.stop:hover {
+  background-color: rgb(0, 215, 255);
+}
+
+.stop {
+  justify-content: center;
+  transition: 0.5s;
+  display: flex;
+  font-size: 60px;
+  font-family: cursive;
+  margin: auto;
+  border: #000000 3px solid;
+}
+
+.text:hover {
+  color: #fff;
+}
+
+.text {
+  color: rgb(86, 195, 197);
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.btn {
+  padding-top: 50px;
+}
+
+.refresh {
+  background-color: rgb(114, 255, 255);
+  border: 0;
+  transition: 0.4s;
+  font-size: 2rem;
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
+
+.refresh:hover {
+  font-size: 1.6rem;
+}
+
+.ref {
+  text-align: right;
+}
